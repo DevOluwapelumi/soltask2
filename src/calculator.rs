@@ -1,3 +1,24 @@
+///-------------------------------------------------------------------------------
+///
+/// This is your calculator implementation task 
+/// to practice enums, structs, and methods.
+/// 
+/// Complete the implementation of the Calculator struct and its methods.
+/// 
+/// The calculator should support basic arithmetic 
+/// operations (addition, subtraction, multiplication)
+/// with overflow protection and maintain a history 
+/// of operations.
+/// 
+/// Tasks:
+/// 1. Implement the OperationType enum methods
+/// 2. Implement the Operation struct constructor
+/// 3. Implement all Calculator methods
+/// 
+///-------------------------------------------------------------------------------
+
+
+
 #[derive(Clone)]
 pub enum OperationType {
     Addition,
