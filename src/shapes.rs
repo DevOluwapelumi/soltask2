@@ -1,3 +1,20 @@
+///-------------------------------------------------------------------------------
+///
+/// This is your first task to get warmed up and see how useful traits can be.
+/// 
+/// Complete the implementation of methods in the Rectangle and Circle structs, 
+/// then implement the Shape trait for both structs.
+/// 
+/// Tasks:
+/// 1. Implement Rectangle struct methods (constructor, setters, getters)
+/// 2. Implement Circle struct methods (constructor, setter, getter)  
+/// 3. Implement the Shape trait for both Rectangle and Circle
+/// 4. Handle validation errors properly using the Error enum
+/// 
+///-------------------------------------------------------------------------------
+
+
+
 use std::f64::consts::PI;
 
 pub trait Shape {
